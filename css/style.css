@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 420px) {
   .weather-header {
     padding: 1rem;
+    width: 100vw;
   }
 }
 
@@ -99,12 +100,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header__date {
   font-size: 2rem;
+  text-align: center;
 }
 @media (max-width: 420px) {
   .header__date {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
-    letter-spacing: 0.7rem;
+    letter-spacing: 0.2rem;
   }
 }
 .header__hours {
@@ -123,14 +125,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3rem;
   color: rgb(226, 226, 148);
   text-transform: uppercase;
-  letter-spacing: 1rem;
+  letter-spacing: 0.3rem;
   line-height: 1.6;
   text-align: center;
 }
 @media (max-width: 420px) {
   .kris {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.6rem;
+    overflow: auto;
+    height: auto;
   }
 }
 

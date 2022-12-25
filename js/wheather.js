@@ -83,7 +83,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Vinnytsia&appid=b037727
                         `+${Math.trunc (data.main.temp - 273)}`
     feelTemp.textContent = Math.trunc (data.main.feels_like - 273) < 0 ?
                         ` ${Math.trunc (data.main.feels_like - 273)}` :
-                        `+ ${Math.trunc (data.main.feels_like - 273)}`
+                        `+${Math.trunc (data.main.feels_like - 273)}`
     humidity.textContent = data.main.humidity
     pressure.textContent = Math.trunc(data.main.pressure/1.3332 )
     visibility.textContent = data.visibility
